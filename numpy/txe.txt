@@ -1,0 +1,10 @@
+numpy arrays is homogenous in nature
+list is not homogenous
+numpy is officat website check 
+
+python list vs numpy arrays
+1.Numpy arrays are faster(optimized in c)
+2.Numpy stores data in continuous memory blocks 
+3.uses less memory (optimized storage)
+4.Built-in mathemetical function
+5.Supports direct vectorized operations
