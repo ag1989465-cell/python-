@@ -1,0 +1,8 @@
+import pandas as pd
+pd.set_option('display.max_columns',None)
+df=pd.read_csv("C:/Users/hi/.vscode/py/python/pandas/raw_data @Skillshala90.csv")
+df2=df.copy()
+new_col_order=[col for col in df2.columns if col !="id"] +["id"]
+print(new_col_order)
+print(df2[new_col_order])
+

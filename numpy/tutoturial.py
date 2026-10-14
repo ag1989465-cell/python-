@@ -1,3 +1,4 @@
+# from curses import echo
 import time
 import numpy as np
 # execution time of a code performance

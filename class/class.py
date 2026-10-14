@@ -9,6 +9,8 @@
 # # dog1 = Dog("Buddy", 3)
 # # print(dog1.name) 
 # # print(dog1.species)
+
+
 # class Animal:
 #     legs ="animal must have 4 legs "   # Class attribute
 #     eyes = 2  # Class attribute
@@ -25,17 +27,24 @@
 # class Cat(Animal):
 #     def sound(self):
 #         print(self.name, "sound meows")
+# s1=Dog("tommy")
+# s1.sound()
+# print(s1.legs)
+
 # e=Cat("kitty")
+# e.sound()
 # # Inherited method  
 # print (e.legs)
-# print (e.eyes)
 # e.info()
-# e.sound()
+
+
+
+
 class father:
     def __init__(self):
         print("i am a father")
     def father(self):
-        fathername=""
+        fathername=""  #not write father(self,fathername)--->child class
         print(self.fathername)
 class mother:
     def __init__(self):

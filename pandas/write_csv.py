@@ -1,0 +1,10 @@
+import pandas as pd
+pd.set_option('display.max_columns',None)
+df=pd.read_csv("C:/Users/hi/.vscode/py/python/pandas/raw_data @Skillshala90.csv")
+df2=df.copy()
+df2=df2.drop_duplicates()
+df2=df2.fillna(0)
+df2=df2.sort_values("income")
+df2=df2.reset_index(drop=True)
+df2.to_csv("sorted_data.csv")# to create new data in csv values 
+print(df2)
